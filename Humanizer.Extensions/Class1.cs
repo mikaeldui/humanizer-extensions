@@ -1,4 +1,4 @@
-namespace {{Namespace}}
+namespace Humanizer
 {
     public class Class1
     {

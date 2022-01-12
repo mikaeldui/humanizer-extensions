@@ -5,16 +5,16 @@
     <LangVersion>latest</LangVersion>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <RootNamespace>{{Namespace}}</RootNamespace>
-    <PackageId>{{Prefix}}.{{ProjectName}}</PackageId>
-    <Authors>{{OwnerName}}</Authors>
-    <Product>{{Prefix}}.{{ProjectName}}</Product>
-    <Description>{{Description}}</Description>
-    <PackageProjectUrl>{{RepositoryUrl}}</PackageProjectUrl>
+    <RootNamespace>Humanizer</RootNamespace>
+    <PackageId>MikaelDui.Humanizer.Extensions</PackageId>
+    <Authors>Mikael Dúi Bolinder</Authors>
+    <Product>MikaelDui.Humanizer.Extensions</Product>
+    <Description>Extensions for Humanizer. E.g. string[].PluralizeLast().</Description>
+    <PackageProjectUrl>https://github.com/mikaeldui/humanizer-extensions</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIcon>Icon.png</PackageIcon>
-    <RepositoryUrl>{{RepositoryUrl}}</RepositoryUrl>
-    <PackageTags>{{Tags}}</PackageTags>
+    <RepositoryUrl>https://github.com/mikaeldui/humanizer-extensions</RepositoryUrl>
+    <PackageTags></PackageTags>
     <PackageLicenseExpression>Unlicense</PackageLicenseExpression>
   </PropertyGroup>
 
@@ -27,6 +27,10 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MikaelDui.Extensions" Version="*" />
   </ItemGroup>
 
 </Project>
