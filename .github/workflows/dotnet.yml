@@ -1,17 +1,8 @@
 name: .NET
 on:
   push:
-    paths:
-    - '{{ProjectName}}/**'    
-    - '{{ProjectName}}.Tests/**'
-    - '.github/workflows/*'
-    - '.github/actions/**'
   pull_request:
-    paths:
-    - '{{ProjectName}}/**'    
-    - '{{ProjectName}}.Tests/**'
-    - '.github/workflows/*'
-    - '.github/actions/**'
+    
 jobs:
   build:
     name: 'Build & Pack'
