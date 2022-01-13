@@ -12,7 +12,7 @@
     <Description>Extensions for Humanizer. E.g. string[].PluralizeLast().</Description>
     <PackageProjectUrl>https://github.com/mikaeldui/humanizer-extensions</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageIcon>humanizer.Extensions.png</PackageIcon>
+    <PackageIcon>Humanizer.Extensions.png</PackageIcon>
     <RepositoryUrl>https://github.com/mikaeldui/humanizer-extensions</RepositoryUrl>
     <PackageTags></PackageTags>
     <PackageLicenseExpression>Unlicense</PackageLicenseExpression>
